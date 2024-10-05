@@ -3,11 +3,12 @@
 	{trigger: "l", replacement: "$$0$", options: "t"},
 	{trigger: "lc", replacement: "$$\n$0\n$$", options: "tw"},
 	{trigger: "beg", replacement: "\\begin{$0}\n$1\n\\end{$0}", options: "mA"},
+	{trigger: "sr", replacement: "^{2}", options: "m"},
 
     /*
 
     // Basic operations
-    {trigger: "sr", replacement: "^{2}", options: "mA"},
+    
 	{trigger: "cb", replacement: "^{3}", options: "mA"},
 	{trigger: "rd", replacement: "^{$0}$1", options: "mA"},
 	{trigger: "_", replacement: "_{$0}$1", options: "mA"},

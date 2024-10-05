@@ -35,10 +35,11 @@
     {trigger: "sub=", replacement: "\\subseteq", options: "mA"},
     {trigger: "sup=", replacement: "\\supseteq", options: "mA"},
 	{trigger: "eset", replacement: "\\emptyset", options: "mA"},
-	{trigger: "set", replacement: "\\{ $0 \\}$1", options: "mA"},
+
+	{trigger: "defset", replacement: "$0=\\{\\,$1\\,|\\,$2\\,\\} $3", options: "mA"},
 
     // lattices
-    {trigger: "posorder", replacement: "\\preceq $0", options: "mA"},
+    {trigger: "poser", replacement: "\\preceq $0", options: "mA"},
     {trigger: "latlike", replacement: "\\langle $0 \\rangle $1", options: "mA"},
 	
 ]

@@ -5,9 +5,18 @@
 	{trigger: "RR", replacement: "\\mathbb{R}", options: "mA"},
 	{trigger: "ZZ", replacement: "\\mathbb{Z}", options: "mA"},
 	{trigger: "NN", replacement: "\\mathbb{N}", options: "mA"},
-    /*
-    // Greek letters
+    
+	// Greek letters
 	{trigger: "@a", replacement: "\\alpha", options: "mA"},
+	{trigger: "@A", replacement: "$A$", options: "tA"},
+
+	{trigger: "@B", replacement: "$B$", options: "tA"},
+
+	{trigger: "@r", replacement: "\\rho", options: "mA"},
+
+	{trigger: "@s", replacement: "\\sigma", options: "mA"},
+	/*
+	
 	{trigger: "@b", replacement: "\\beta", options: "mA"},
 	{trigger: "@g", replacement: "\\gamma", options: "mA"},
 	{trigger: "@G", replacement: "\\Gamma", options: "mA"},
@@ -23,7 +32,7 @@
 	{trigger: "@k", replacement: "\\kappa", options: "mA"},
 	{trigger: "@l", replacement: "\\lambda", options: "mA"},
 	{trigger: "@L", replacement: "\\Lambda", options: "mA"},
-	{trigger: "@s", replacement: "\\sigma", options: "mA"},
+	
 	{trigger: "@S", replacement: "\\Sigma", options: "mA"},
 	{trigger: "@u", replacement: "\\upsilon", options: "mA"},
 	{trigger: "@U", replacement: "\\Upsilon", options: "mA"},

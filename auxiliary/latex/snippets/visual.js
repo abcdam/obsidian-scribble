@@ -21,7 +21,7 @@
 	{trigger: "mod", replacement: "|$0|$1", options: "mA"},
     */
 	{trigger: "(", replacement: "(${VISUAL})", options: "mA"},
-    {trigger: "(", replacement: "\\;(\\;$0\\;)\\; $1", options: "mA"},
+    {trigger: "(", replacement: "\\;(\\;$0\\; $1", options: "m"},
     {trigger: "{", replacement: "{${VISUAL}}", options: "mA"},
 	{trigger: "{", replacement: "{$0}$1", options: "mA"},
 /*

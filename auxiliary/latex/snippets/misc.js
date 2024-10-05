@@ -12,4 +12,6 @@
 	{trigger: "\\\\(${GREEK}|${SYMBOL}) tilde", replacement: "\\tilde{\\[[0]]}", options: "rmA"},
 	{trigger: "\\\\(${GREEK}|${SYMBOL}) und", replacement: "\\underline{\\[[0]]}", options: "rmA"},
     */
+
+	{trigger: "hat", replacement: "\\hat{$0}$1", options: "mA"},
 ]
