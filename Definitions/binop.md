@@ -7,6 +7,7 @@ mathLink-blocks:
     invers: $\text{inverse}$
     commutat: $\text{commutative}$
     idempot: $\text{idempotent}$
+    binopDef: $\text{binary operator}$
 ---
 
 
@@ -15,10 +16,13 @@ mathLink-blocks:
 >[!faq] Binary operator
 >- A 2-ary function is a binary operator that accepts two elements and maps them to a third element:
 >$$
->f:(A\times B)\rightarrow S
+>\beta:(A\times B)\rightarrow S
 >$$
 >- The binary operation operates on a set if the codomain and both domains are the same set:$$
->f:(S\times S)\rightarrow S$$
+>\beta:(S\times S)\rightarrow S$$
+> -In case where closure is not required, the operator can be a partial function:$$
+> \beta:(S\times S) \rightharpoonup S$$
+^binopDef
 
 ### Binary operator - Some possible properties
 
