@@ -6,6 +6,7 @@
 	{trigger: "C", replacement: "\\cancel{ ${VISUAL} }", options: "mA"},
 	{trigger: "K", replacement: "\\cancelto{ $0 }{ ${VISUAL} }", options: "mA"},
 	{trigger: "S", replacement: "\\sqrt{ ${VISUAL} }", options: "mA"},
+	{trigger: "R", replacement: "\\underline{\\underline{${VISUAL}}}", options: "mA"},
 
     {trigger: "s", replacement: "\\;", options: "m"},
     {trigger: "ss", replacement: "\\quad", options: "m"},

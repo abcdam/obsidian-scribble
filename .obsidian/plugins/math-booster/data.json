@@ -16,7 +16,7 @@
       "noteMathLinkFormat": "[title] if title exists, [type] [number] otherwise",
       "ignoreMainTheoremCalloutWithoutTitle": false,
       "numberOnlyReferencedEquations": true,
-      "inferEqNumberPrefix": true,
+      "inferEqNumberPrefix": false,
       "inferEqNumberPrefixFromProperty": "",
       "inferEqNumberPrefixRegExp": "^[0-9]+(\\.[0-9]+)*",
       "eqNumberPrefix": "",
@@ -37,7 +37,7 @@
   "extraSettings": {
     "foldDefault": "",
     "noteTitleInTheoremLink": true,
-    "noteTitleInEquationLink": true,
+    "noteTitleInEquationLink": false,
     "profiles": {
       "English": {
         "id": "English",
@@ -156,6 +156,7 @@
     "Definitions/_relations.md",
     "Definitions/_sets.md",
     "relationGeneral.md",
-    "setGeneral.md"
+    "setGeneral.md",
+    "scribble/241008.md"
   ]
 }

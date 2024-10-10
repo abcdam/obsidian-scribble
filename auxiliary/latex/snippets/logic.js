@@ -19,23 +19,24 @@
     {trigger: "fall", replacement: "\\forall", options: "mA"},
 
 
-    {trigger: "<->", replacement: "\\leftrightarrow ", options: "mA"},
-    {trigger: "iff", replacement: "\\Leftrightarrow ", options: "mA"},
+    {trigger: "-<>", replacement: "\\leftrightarrow ", options: "mA"},
+    {trigger: "iff", replacement: "\\iff ", options: "mA"},
 	{trigger: "->", replacement: "\\to", options: "mA"},
 	{trigger: "|>", replacement: "\\mapsto", options: "mA"},
     {trigger: "=>", replacement: "\\implies", options: "mA"},
 	{trigger: "=<", replacement: "\\impliedby", options: "mA"},
+	{trigger: "deff", replacement: "\\stackrel{def}{=} $0", options: "mA"},
 
     // general sets
 	{trigger: "isect", replacement: "\\cap", options: "mA"},
 	{trigger: "union", replacement: "\\cup", options: "mA"},
 	{trigger: "inn", replacement: "\\in", options: "mA"},
 	{trigger: "notin", replacement: "\\not\\in", options: "mA"},
-    {trigger: "\\\\\\", replacement: "\\setminus", options: "mA"},
+    {trigger: "minset", replacement: "\\setminus", options: "mA"},
     {trigger: "sub=", replacement: "\\subseteq", options: "mA"},
     {trigger: "sup=", replacement: "\\supseteq", options: "mA"},
 	{trigger: "eset", replacement: "\\emptyset", options: "mA"},
-
+    {trigger: "...", replacement: "\\dots", options: "mA"},
 	{trigger: "defset", replacement: "$0=\\{\\,$1\\,|\\,$2\\,\\} $3", options: "mA"},
 
     // lattices
